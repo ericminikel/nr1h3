@@ -1,2 +1,3 @@
-# nr1h3
-Analysis of NR1H3 R415Q variant
+# _NR1H3_
+
+This repository holds source code and text for a manuscript currently in review.
