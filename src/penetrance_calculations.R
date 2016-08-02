@@ -58,3 +58,23 @@ odds_hets = 50/50 # if a dominant variant were 50% penetrant, that would mean he
 odds_baseline_women = baseline_risk_women / (1-baseline_risk_women) # odds of developing MS for women in the general population
 odds_ratio_for_50percent_penetrance = odds_hets / odds_baseline_women # ratio of the odds
 odds_ratio_for_50percent_penetrance
+
+# Here are some additional calculations to support the claim that the inclusion of some inflammatory bowel disease
+# exomes in ExAC does not affect interpretation.
+exac_males = 33644
+exac_females = 27062
+# If ExAC ascertainment is neutral with respect to MS, then just by chance, how many individuals in ExAC would be 
+# expected to eventually develop MS?
+exac_males * baseline_risk_men + exac_females * baseline_risk_women # ~115 individuals
+# Now, suppose a worst case scenario, that all 1,675 of the IBD exomes are cases as opposed to controls, and that all are
+# women. 
+exac_ibd_exomes = 1675
+# Suppose these people have 2X the normal level of MS risk - then how many additional individuals who will eventually develop MS
+# would be added to ExAC?
+exac_ibd_exomes * baseline_risk_women * 2 # ~8 additional individuals
+# Or suppose they have 10X the normal level of MS risk - then how many additional individuals who will eventually develop MS
+# would be added to ExAC?
+exac_ibd_exomes * baseline_risk_women * 10 # ~42 additional individuals
+# Conclusion: even if people with IBD had 10X increased risk of MS, the total number of MS cases in ExAC would be increased
+# by only about 36% rather than by a factor of hundreds, as would be required to allow NR1H3 R415Q to be Mendelian.
+
