@@ -1,6 +1,6 @@
-### Publicly available data provide evidence against _NR1H3_ R415Q causing multiple sclerosis
+# Publicly available data provide evidence against _NR1H3_ R415Q causing multiple sclerosis
 
-**NOTICE: this is the author's version of a work that was accepted for publication in _Neuron_. Changes resulting from the publishing process, such as peer review, editing, corrections, structural formatting, and other quality control mechanisms may not be reflected in this document. Changes may have been made to this work since it was submitted for publication. A definitive version was subsequently published as: [Minikel EV, MacArthur DG. Publicly available data provide evidence against _NR1H3_ R415Q causing multiple sclerosis. October 19, 2016, Neuron 92, 336–338. doi:10.1016/j.neuron.2016.09.054](http://dx.doi.org/10.1016/j.neuron.2016.09.054).**
+<b>NOTICE: this is the author's version of a work that was accepted for publication in _Neuron_. Changes resulting from the publishing process, such as peer review, editing, corrections, structural formatting, and other quality control mechanisms may not be reflected in this document. Changes may have been made to this work since it was submitted for publication. A definitive version was subsequently published as: [Minikel EV, MacArthur DG. Publicly available data provide evidence against _NR1H3_ R415Q causing multiple sclerosis. October 19, 2016, Neuron 92, 336–338. doi:10.1016/j.neuron.2016.09.054](http://dx.doi.org/10.1016/j.neuron.2016.09.054).</b>
 
 Eric Vallabh Minikel<sup>1,2,3</sup> and Daniel G. MacArthur<sup>1,2</sup>
 
@@ -26,12 +26,11 @@ As with any large-scale resource, there are some caveats that users should consi
 
 Comparison of large case-control series, sequenced or genotyped using the same technology, and employing appropriate controls for population stratification, is the best way to evaluate whether candidate disease-causing variants are enriched in cases. Such datasets do not exist for all diseases, however, nor do all investigators have access to such series where they do exist. ExAC data provide a publicly available resource that anyone can use to evaluate the plausibility of putative Mendelian disease variants, and it is critical that authors and reviewers carefully consider such resources, and perform rigorous and quantitative assessments, when evaluating claims of variant pathogenicity.
 
-#### Acknowledgments
+### Acknowledgments
 
-*The R source code for calculations described here is publicly available at [https://github.com/ericminikel/_NR1H3_](https://github.com/ericminikel/_NR1H3_). EVM is supported by the National Institutes of Health under a Ruth L. Kirschstein National Research Service Award (NRSA) NIH Individual Predoctoral Fellowship (F31) (award AI122592-01A1), and thanks Daniel MacArthur for discussions.*
+*The R source code for calculations described here is publicly available at [https://github.com/ericminikel/_NR1H3_](https://github.com/ericminikel/_NR1H3_). EVM is supported by the National Institutes of Health under a Ruth L. Kirschstein National Research Service Award (NRSA) NIH Individual Predoctoral Fellowship (F31) (award AI122592-01A1). DGM is supported by NIGMS R01 GM104371 and NIDDK U54 DK105566.*
 
-#### References
-
+### References
 
 1.	Alonso, A., Hernán, M.A., 2008. Temporal trends in the incidence of multiple sclerosis: a systematic review. Neurology 71, 129–135. doi:10.1212/01.wnl.0000316802.35974.34
 2.	Cotsapas, C., Voight, B.F., Rossin, E., Lage, K., Neale, B.M., Wallace, C., Abecasis, G.R., Barrett, J.C., Behrens, T., Cho, J., De Jager, P.L., Elder, J.T., Graham, R.R., Gregersen, P., Klareskog, L., Siminovitch, K.A., van Heel, D.A., Wijmenga, C., Worthington, J., Todd, J.A., Hafler, D.A., Rich, S.S., Daly, M.J., FOCiS Network of Consortia, 2011. Pervasive sharing of genetic effects in autoimmune disease. PLoS Genet. 7, e1002254. doi:10.1371/journal.pgen.1002254
